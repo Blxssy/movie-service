@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"movie-service/metadata/internal/repository"
-	model "movie-service/metadata/pkg"
+	"movie-service/metadata/pkg/model"
 )
 
 var ErrNotFound = errors.New("metadata not found")

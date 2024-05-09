@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 	"movie-service/metadata/internal/repository"
-	model "movie-service/metadata/pkg"
+	"movie-service/metadata/pkg/model"
 	"sync"
 )
 
