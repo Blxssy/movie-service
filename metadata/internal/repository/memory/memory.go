@@ -12,7 +12,7 @@ type Repository struct {
 	data map[string]*model.Metadata
 }
 
-func NewRepository() *Repository {
+func New() *Repository {
 	return &Repository{
 		data: map[string]*model.Metadata{},
 	}
